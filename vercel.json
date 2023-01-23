@@ -2,11 +2,11 @@
     "version": 2,
     "routes": [
         {
-            "src": "/static/(.)",
+            "src": "/static/(.*)",
             "dest": "/static/$1"
         },
         {
-            "src": "/(.)",
+            "src": "/(.*)",
             "dest": "BookHouse/wsgi.py"
         }
     ]
